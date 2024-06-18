@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, 'lato';
+}
+
+
+
+body {
+
+background: #f9f9f9;
+min-height: 100vh;
+overflow-x: hidden;
+user-select: none;
+
+
+}
+
+
+header {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+
+
+
+
+}
+
+.logo {
+
+    font-size: .8cm;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 235px;
+
+
+}
+
+
+.navigation a {
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+
+}
+
+
+.navigation a:hover, 
+.navigation a.active5 {
+
+    background: #359381;
+    color: #fff;
+}
+
+
+.parallax {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+#text {
+
+     position: absolute;
+     font-size: 2.8cm;
+     color: #fff;
+     text-shadow: 2px 2px 4px rgba(0,0,0, .2);
+}
+
+.parallax img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+
+}
+
+
+
+.sec {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+    height: 920px;
+    width: 100%;
+    
+    
+}
+
+.sec h2 {
+    font-size: 1.3cm;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.sec p {
+    font-size: 0.5cm;
+    color: #003329;
+    font-weight: 300;
+}
+
+
+
+
+.box2 {
+
+width: 350px;
+margin: 10px auto;
+box-shadow: 0 0 20px #bababa;
+overflow: hidden;
+position: relative;
+
+}
+
+.box2:before,
+.box2:after {
+
+content: '';
+width: 0;
+height: 0;
+position: absolute;
+opacity: 0;
+z-index: 10000;
+transition: all 0.5s;
+
+
+}
+
+
+.box2:before{
+
+bottom: 5%;
+left: 5%;
+border-bottom: 2px solid #fff;
+border-left: 2px solid #fff;
+
+}
+
+
+
+.box2:after{
+
+    top: 4.5%;
+    right: 4.4%;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    
+    }
+
+.box2:hover:before,
+.box2:hover:after {
+
+opacity: 1;
+width: 90%;
+height: 90%;
+
+}
+
+
+
+.box2 img {
+
+width: 100%;
+height: auto;
+transform: scale(1);
+display: block;
+transition: all 0.5s;
+
+}
+
+
+.box2:hover img{
+
+transform: scale(1.05);
+
+}
+
+
+.box2 .box-content {
+color: #fff;
+width: 100%;
+position: absolute;
+bottom: 10%;
+left: 10%;
+
+}
+
+
+.box2 .name{
+
+display: block;
+color: #fff;
+font-size: 25px;
+line-height: 25px;
+margin: 0;
+opacity: 1;
+position: absolute;
+bottom: 0;
+left: 0;
+transition: all 0.5s ;
+position: absolute; top: 470px;
+position: absolute; left: 25px;
+
+}
+
+
+
+.box2 .post{
+
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 0;
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ;
+    position: absolute; top: 470px;
+    position: absolute; left: 25px;
+    
+    }
+
+.box2 .post,
+.box2:hover .name {
+
+opacity: 0;
+
+}
+
+.box2:hover .post {
+
+    opacity: 1;
+    
+    }
+    
+
+    .box2 {
+
+
+position: absolute; top: 1190px;
+position: absolute; left: 100px;
+
+    }
+
+
+    @property --rotate {
+        syntax: "<angle>";
+        initial-value: 132deg;
+        inherits: false;
+      }
+      
+      :root {
+        --card-height: 65vh;
+        --card-width: calc(var(--card-height) / 1.5);
+      }
+      
+      
+      /* body {
+        min-height: 100vh;
+        background: #212534;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        box-sizing: border-box;
+      } */
+      
+      
+      .card {
+        background: #191c29;
+        width: var(--card-width);
+        height: var(--card-height);
+        padding: 3px;
+        position: relative;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        font-size: 1.5em;
+        color: rgb(88 199 250 / 0%);
+        cursor: pointer;
+        font-family: cursive;
+      }
+      
+    
+      
+      .card::before {
+        content: "";
+        width: 104%;
+        height: 102%;
+        border-radius: 8px;
+        background-image: linear-gradient(
+          var(--rotate)
+          , #5ddcff, #3c67e3 43%, #4e00c2);
+          position: absolute;
+          z-index: -1;
+          top: -1%;
+          left: -2%;
+          animation: spin 2.5s linear infinite;
+      }
+      
+      .card::after {
+        position: absolute;
+        content: "";
+        top: calc(var(--card-height) / 6);
+        left: 0;
+        right: 0;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        transform: scale(0.8);
+        filter: blur(calc(var(--card-height) / 6));
+        background-image: linear-gradient(
+          var(--rotate)
+          , #5ddcff, #3c67e3 43%, #4e00c2);
+          opacity: 1;
+        transition: opacity .5s;
+        animation: spin 2.5s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% {
+          --rotate: 0deg;
+        }
+        100% {
+          --rotate: 360deg;
+        }
+      }
+      
+     
+    
+    
+      .card {
+    
+        position: absolute; top: 1200px;
+        position: absolute; left: 680px;
+        z-index: 10;
+        width: 400px;
+        height: 540px;
+        
+        
+    
+      }
+
+
+      .cardabove {
+        background: #191c29;
+        width: var(--card-width);
+        height: var(--card-height);
+        padding: 3px;
+        position: relative;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        font-size: 1.5em;
+        color: rgb(88 199 250 / 0%);
+        cursor: pointer;
+        font-family: cursive;
+      }
+
+
+      .cardabove  {
+
+        position: absolute; top: 1204px;
+        position: absolute; left: 684px;
+        z-index: 10;
+        height: 532px;
+        width: 392px;
+
+      }
+ 
+      .cardabove h1{
+
+        color: #fff;
+        font-size: 6em;
+        z-index: 30; 
+        position: absolute; top: -40px;
+        position: absolute; left: 230px;
+        
+        }
+
+        .cardabove h2 {
+        
+        
+          color: #fff;
+          font-size: 1.7em;
+          z-index: 60; 
+          position: absolute; top: 140px;
+          align-items: center;
+          justify-content: center;
+         float: left;
+         display: inline;
+          
+      
+      
+      }
+
+
+      .cardabove h3 {
+
+          color: #fff;
+          font-size: 1.23em;
+          z-index: 30; 
+          position: absolute; top: 300px;
+          align-items: center;
+          justify-content: center;
+          text-align: left;
+          position: absolute; left: 37px;
+      
+      }
+
+
+
+
+
+
+      @property --rotate {
+        syntax: "<angle>";
+        initial-value: 132deg;
+        inherits: false;
+      }
+      
+      :root {
+        --card-height: 65vh;
+        --card-width: calc(var(--card-height) / 1.5);
+      }
+      
+      
+      /* body {
+        min-height: 100vh;
+        background: #212534;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        box-sizing: border-box;
+      } */
+      
+      
+      .card2 {
+        background: #191c29;
+        width: var(--card-width);
+        height: var(--card-height);
+        padding: 3px;
+        position: relative;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        font-size: 1.5em;
+        color: rgb(88 199 250 / 0%);
+        cursor: pointer;
+        font-family: cursive;
+      }
+      
+    
+      
+      .card2::before {
+        content: "";
+        width: 104%;
+        height: 102%;
+        border-radius: 8px;
+        background-image: linear-gradient(
+          var(--rotate)
+          , #5ddcff, #3c67e3 43%, #4e00c2);
+          position: absolute;
+          z-index: -1;
+          top: -1%;
+          left: -2%;
+          animation: spin 2.5s linear infinite;
+      }
+      
+      .card2::after {
+        position: absolute;
+        content: "";
+        top: calc(var(--card-height) / 6);
+        left: 0;
+        right: 0;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        transform: scale(0.8);
+        filter: blur(calc(var(--card-height) / 6));
+        background-image: linear-gradient(
+          var(--rotate)
+          , #5ddcff, #3c67e3 43%, #4e00c2);
+          opacity: 1;
+        transition: opacity .5s;
+        animation: spin 2.5s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% {
+          --rotate: 0deg;
+        }
+        100% {
+          --rotate: 360deg;
+        }
+      }
+      
+     
+    
+    
+      .card2 {
+    
+        position: absolute; top: 1200px;
+        position: absolute; left: 1300px;
+        z-index: 10;
+        width: 400px;
+        height: 540px;
+        
+        
+    
+      }
+
+
+      .cardabove2 {
+        background: #191c29;
+        width: var(--card-width);
+        height: var(--card-height);
+        padding: 3px;
+        position: relative;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        font-size: 1.5em;
+        color: rgb(88 199 250 / 0%);
+        cursor: pointer;
+        font-family: cursive;
+      }
+
+
+      .cardabove2  {
+
+        position: absolute; top: 1204px;
+        position: absolute; left: 1304px;
+        z-index: 10;
+        height: 532px;
+        width: 392px;
+
+      }
+ 
+      .cardabove2 h1{
+
+        color: #fff;
+        font-size: 6em;
+        z-index: 30; 
+        position: absolute; top: -40px;
+        position: absolute; left: 202px;
+        
+        }
+
+        .cardabove2 h2 {
+        
+        
+          color: #fff;
+          font-size: 1.7em;
+          z-index: 60; 
+          position: absolute; top: 145px;
+          align-items: center;
+          justify-content: center;
+         float: left;
+         display: inline;
+          
+      
+      
+      }
+
+
+      .cardabove2 h3 {
+
+          color: #fff;
+          font-size: 1.04em;
+          z-index: 30; 
+          position: absolute; top: 216px;
+          align-items: center;
+          justify-content: center;
+          text-align: left;
+          position: absolute; left: 25px;
+          font-weight: 600;
+      
+      }
+
+
+      #Logo_Image {
+
+        position: absolute;top: 19px; 
+        position: absolute;left: 45px;
+
+      }
+
+
+
+
+   
