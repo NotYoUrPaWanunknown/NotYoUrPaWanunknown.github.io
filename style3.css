@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, 'lato';
+}
+
+
+
+body {
+
+background: #f9f9f9;
+min-height: 100vh;
+overflow-x: hidden;
+
+
+}
+
+
+header {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+
+
+
+
+}
+
+.logo {
+
+    font-size: .8cm;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 235px;
+
+
+}
+
+
+.navigation a {
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+
+}
+
+
+.navigation a:hover, 
+.navigation a.active3 {
+
+    background: #359381;
+    color: #fff;
+}
+
+
+.parallax {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+#text {
+
+     position: absolute;
+     font-size: 2.8cm;
+     color: #fff;
+     text-shadow: 2px 2px 4px rgba(0,0,0, .2);
+}
+
+.parallax img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+
+}
+
+.sec {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+    height: 1090px;
+    width: 100%;
+    
+}
+
+.sec h2 {
+    font-size: 1.3cm;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.sec p {
+    font-size: 0.5cm;
+    color: #003329;
+    font-weight: 300;
+}
+
+
+
+.map {
+
+    width: 830px; 
+    height: 730px; 
+    position: absolute; top: 1203px; 
+    position: absolute; left: 513px;
+}
+
+
+
+
+
+
+
+.box {
+
+position: relative;
+width: 950px;
+height: 850px;
+background: repeating-conic-gradient(from var(--a), #ff2770 0%, #ff2770 5%, transparent 5%, transparent 40%, #ff2770 50% );
+animation: animate 4s linear infinite;
+border-radius: 20px;
+z-index: 3;
+
+
+}
+
+@property --a {
+
+syntax: '<angle>';
+inherits: false;
+initial-value: 0deg;
+
+}
+
+@keyframes animate {
+
+0%{
+    --a: 0deg 
+}
+100%{
+    --a: 360deg 
+}
+
+}
+
+.box:before {
+
+content: '';
+position: absolute;
+width: 100%;
+height: 100%;
+background: repeating-conic-gradient(from var(--a), #45f3ff 0%, #45f3ff 5%, transparent 5%, transparent 40%, #45f3ff 50% );
+animation: animate 4s linear infinite;
+animation-delay: -1s;
+border-radius: 20px;
+
+
+}
+
+
+.box:after {
+
+content: '';
+position: absolute;
+inset: 8px;
+background: #2d2d39;
+border-radius: 15px;
+border: 8px solid #25252b;
+
+}
+
+.box {
+
+position: absolute; top: 1142.5px; position: absolute;
+ left: 453px;
+}
+
+
+.map {
+
+z-index: 20;
+
+}
+
+
+
+
+.maplogo {
+
+    position: absolute; top: 1450px;
+    position: absolute; left: 115px;
+    z-index: 20;
+    filter: invert(5%) sepia(1%) saturate(39%) hue-rotate(323deg) brightness(20%) contrast(101%);
+    
+    
+    }
+
+    .legend {
+
+             position: absolute; top: 1550px;
+             position: absolute; left: 1475px;
+             z-index: 500;
+
+
+
+    }
+
+
+
+
+
+
+
+.animated_card {
+
+height: 500px;
+width: 350px;
+background: #222;
+position: relative;
+display: grid;
+place-items: center;
+border-radius: 10px;
+cursor: pointer;
+overflow: hidden;
+
+}
+
+
+
+
+.animated_card::before {
+
+position: absolute;
+content: '';
+width: 50%;
+height: 180%;
+background: #ff0800;
+transform: rotate(45deg);
+
+}
+
+.animated_card:hover::before {
+
+animation: animateit 2s linear infinite;
+
+}
+
+
+@keyframes animateit{
+
+from{
+
+       transform: rotate(360deg);
+
+}
+
+to{
+
+    transform: rotate(0deg);
+    filter: hue-rotate(-360deg) saturate(1000%);
+
+}
+
+}
+
+
+.animated_card::after{
+
+
+position: absolute;
+content: '';
+inset: 10px;
+background: #000;
+border-radius: 8px;
+
+}
+
+
+.animated_card {
+
+
+position: absolute; top: 1320px;
+position: absolute; left: 51.5px;
+
+}
+
+
+.animated_card h1{
+
+color: #fff;
+font-size: 8em;
+z-index: 30; 
+position: absolute; top: -20px;
+padding-left: 180px;
+
+}
+
+.animated_card h2 {
+
+
+    color: #fff;
+    font-size: 1.7em;
+    z-index: 30; 
+    position: absolute; top: 140px;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+
+.animated_card h3 {
+
+    color: #fff;
+    font-size: 1.3em;
+    z-index: 30; 
+    position: absolute; top: 210px;
+    align-items: center;
+    justify-content: center;
+    position: absolute; left: 26px;
+
+}
+
+
+
+
+.animated_card2 {
+
+    height: 500px;
+    width: 350px;
+    background: #222;
+    position: relative;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    
+    }
+    
+    
+    
+    
+    .animated_card2::before {
+    
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 180%;
+    background: #ff0800;
+    transform: rotate(45deg);
+    
+    }
+    
+    .animated_card2:hover::before {
+    
+    animation: animateit2 2s linear infinite;
+    
+    }
+    
+    
+    @keyframes animateit2{
+    
+    from{
+    
+           transform: rotate(360deg);
+    
+    }
+    
+    to{
+    
+        transform: rotate(0deg);
+        filter: hue-rotate(-360deg) saturate(1000%);
+    
+    }
+    
+    }
+    
+    
+    .animated_card2::after{
+    
+    
+    position: absolute;
+    content: '';
+    inset: 10px;
+    background: #000;
+    border-radius: 8px;
+    
+    }
+    
+    
+    .animated_card2 {
+    
+    
+    position: absolute; top: 1320px;
+    position: absolute; left: 1452px;
+    z-index: 30;
+    
+    }
+
+
+
+    .animated_card2 h1{
+
+        color: #fff;
+        font-size: 8em;
+        z-index: 30; 
+        position: absolute; top: -20px;
+        position: absolute; left: 170px;
+        
+        }
+        
+        .animated_card2 h2 {
+        
+        
+            color: #fff;
+            font-size: 1.7em;
+            z-index: 60; 
+            position: absolute; top: 140px;
+            align-items: center;
+            justify-content: center;
+            
+        
+        
+        }
+
+
+        .animated_card2 h3 {
+
+            color: #fff;
+            font-size: 1.3em;
+            z-index: 30; 
+            position: absolute; top: 380px;
+            align-items: center;
+            justify-content: center;
+            position: absolute; left: 26px;
+        
+        }
+
+        #Logo_Image {
+
+            position: absolute;top: 19px; 
+            position: absolute;left: 45px;
+
+        }
+
+        

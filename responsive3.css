@@ -1,0 +1,925 @@
+@media only screen and (max-width: 1590px) {
+
+    body{
+ 
+ overflow-x: hidden;
+ 
+    }
+    
+    
+     .navigation  {
+ 
+          position: absolute; left: 490px;
+          position: absolute; top: 40px;
+          font-size: 16px;
+          font-weight: 900;
+          
+          
+     }
+ 
+ 
+     .navigation a {
+ 
+      margin: 0 2px;
+ 
+ 
+     }
+ 
+     
+           
+ 
+     
+     .logo {
+ 
+         font-size: 25px;
+     }
+ 
+
+
+     .parallax {
+
+        width: 100%;
+
+     }
+
+
+     
+     .sec {
+
+        height: 1000px;
+        width: 100%;
+
+     }
+
+     .box {
+
+        height: 700px;
+        width: 820px;
+        position: absolute; top: 1065px;
+        position: absolute; left: 352px;
+
+     }
+
+    .map {
+
+       width: 768px;
+       height: 640px;
+       position: absolute; top: 1094px;
+       position: absolute; left: 378px;
+
+
+    }
+
+     .animated_card {
+
+     position: absolute; top: 1175px;
+     position: absolute; left: 10px;
+     width: 330px;
+
+
+     }
+
+     .animated_card2 {
+
+        position: absolute; top: 1175px;
+        position: absolute; left: 1184px;
+        width: 330px;
+   
+   
+        }
+
+        .animated_card2 h1 {
+
+            position: absolute; left: 158px;
+
+        }
+
+
+        .legend {
+
+            position: absolute; top: 1380px;
+            position: absolute; left: 1205px;
+            width: 290px;
+
+        }
+
+
+        .animated_card2 h3 {
+
+            position: absolute; left: 17px;
+
+        }
+
+        .animated_card h3 {
+
+            position: absolute; left: 19px;
+
+        }
+
+        .maplogo {
+
+            position: absolute; top: 1300px;
+            position: absolute; left: 85px;
+
+        }
+
+        
+
+      
+
+ }
+ 
+ 
+ @media only screen and (max-width: 1525px) {
+ 
+     body{
+ 
+         overflow-x: hidden;
+         
+            }
+ 
+ 
+ 
+ .logo {
+ 
+  font-size: 25px;
+  position: absolute; left: 95px;
+  position: absolute; top: 30px;
+ 
+ 
+ }
+ 
+ .navigation  {
+ 
+     position: absolute; left: 460px;
+     position: absolute; top: 40px;
+     font-size: 16px;
+     font-weight: 900;
+     
+     
+ }
+ 
+ 
+ .navigation a {
+ 
+ margin: 0 2px;
+ 
+ 
+ }
+ 
+ 
+ .parallax {
+ 
+ width: 100%;
+ 
+ 
+ 
+ }
+ 
+ .sec{
+ 
+ 
+    position: absolute; top: 837px;
+ 
+ }
+
+
+ .box {
+
+    height: 700px;
+    width: 780px;
+    position: absolute; top: 1065px;
+    position: absolute; left: 352px;
+
+ }
+
+.map {
+
+   width: 728px;
+   height: 640px;
+   position: absolute; top: 1094px;
+   position: absolute; left: 378px;
+
+
+}
+
+ .animated_card {
+
+ position: absolute; top: 1175px;
+ position: absolute; left: 10px;
+ width: 330px;
+
+
+ }
+
+ .animated_card2 {
+
+    position: absolute; top: 1175px;
+    position: absolute; left: 1136px;
+    width: 330px;
+
+
+    }
+
+    .animated_card2 h1 {
+
+        position: absolute; left: 158px;
+
+    }
+
+
+    .legend {
+
+        position: absolute; top: 1380px;
+        position: absolute; left: 1155px;
+        width: 290px;
+
+    }
+
+
+    .animated_card2 h3 {
+
+        position: absolute; left: 17px;
+
+    }
+
+    .animated_card h3 {
+
+        position: absolute; left: 19px;
+
+    }
+
+    .maplogo {
+
+        position: absolute; top: 1300px;
+        position: absolute; left: 85px;
+
+    }
+
+ 
+ }
+
+
+ 
+ @media only screen and (max-width: 1472px) {
+ 
+ 
+     body{
+ 
+         overflow-x: hidden;
+         
+            }
+            
+            
+             .navigation  {
+         
+                  position: absolute; left: 470px;
+                  position: absolute; top: 40px;
+                  font-size: 14px;
+                  
+                  
+                  
+             }
+         
+         
+             .navigation a {
+         
+              margin: 0 -1px;
+              font-weight: 700;
+         
+         
+             }
+ 
+             .sec {
+ 
+             position: absolute; top: 796px;
+ 
+             }
+ 
+          
+             .parallax {
+
+                width: 100%;
+        
+             }
+
+
+            
+             
+             .sec {
+
+                height: 1000px;
+
+             }
+
+
+             .box {
+
+                height: 700px;
+                width: 760px;
+                position: absolute; top: 1065px;
+                position: absolute; left: 321px;
+        
+             }
+        
+            .map {
+        
+               width: 708px;
+               height: 640px;
+               position: absolute; top: 1094px;
+               position: absolute; left: 347px;
+        
+        
+            }
+        
+             .animated_card {
+        
+             position: absolute; top: 1175px;
+             position: absolute; left: 5px;
+             width: 310px;
+        
+        
+             }
+        
+             .animated_card2 {
+        
+                position: absolute; top: 1175px;
+                position: absolute; left: 1085px;
+                width: 310px;
+           
+           
+                }
+        
+                .animated_card2 h1 {
+        
+                    position: absolute; left: 148px;
+        
+                }
+
+                .animated_card h1 {
+        
+                    position: absolute; left: -15px;
+        
+                }
+        
+        
+                .legend {
+        
+                    position: absolute; top: 1380px;
+                    position: absolute; left: 1105px;
+                    width: 270px;
+        
+                }
+        
+        
+                .animated_card2 h3 {
+        
+                    position: absolute; left: 17px;
+        
+                }
+        
+                .animated_card h3 {
+        
+                    position: absolute; left: 19px;
+        
+                }
+        
+                .maplogo {
+        
+                    position: absolute; top: 1300px;
+                    position: absolute; left: 85px;
+        
+                }
+        
+                
+
+ 
+ }
+ 
+
+
+ 
+ 
+ @media only screen and (max-width: 1399px) {
+ 
+     body{
+ 
+         overflow-x: hidden;
+         
+            }
+            
+            
+             .navigation  {
+         
+                  position: absolute; left: 430px;
+                  position: absolute; top: 40px;
+                  font-size: 14px;
+                  
+                  
+                  
+             }
+         
+         
+             .navigation a {
+         
+              margin: 0 -1px;
+              font-weight: 700;
+         
+         
+             }
+ 
+ 
+             .sec {
+ 
+                 position: absolute; top: 739px;
+ 
+             }
+ 
+ 
+             
+ 
+             .parallax {
+
+                width: 100%;
+        
+             }
+
+
+
+             .box {
+
+                height: 700px;
+                width: 712px;
+                position: absolute; top: 965px;
+                position: absolute; left: 294px;
+        
+             }
+        
+            .map {
+        
+               width: 660px;
+               height: 640px;
+               position: absolute; top: 996px;
+               position: absolute; left: 320px;
+        
+        
+            }
+        
+             .animated_card {
+        
+             position: absolute; top: 1090px;
+             position: absolute; left: 5px;
+             width: 280px;
+        
+        
+             }
+        
+             .animated_card2 {
+        
+                position: absolute; top: 1090px;
+                position: absolute; left: 1013px;
+                width: 280px;
+           
+           
+                }
+        
+                .animated_card2 h1 {
+        
+                    position: absolute; left: 108px;
+        
+                }
+
+                .animated_card h1 {
+        
+                    position: absolute; left: -45px;
+        
+                }
+
+
+                .animated_card h2 {
+
+                    font-size: 1.4em;
+
+                }
+
+                .animated_card2 h2 {
+
+                    font-size: 1.4em;
+
+                }
+
+
+                .animated_card h3 {
+
+                    font-size: 1.18em;
+                    position: absolute; top: 208px;
+
+                }
+                .animated_card2 h3 {
+
+                    font-size: 1.15em;
+                    
+
+                }
+        
+        
+                .legend {
+        
+                    position: absolute; top: 1290px;
+                    position: absolute; left: 1035px;
+                    width: 240px;
+                    height: 140px;
+        
+                }
+        
+        
+                .animated_card2 h3 {
+        
+                    position: absolute; left: 17px;
+        
+                }
+        
+                .animated_card h3 {
+        
+                    position: absolute; left: 19px;
+        
+                }
+        
+                .maplogo {
+        
+                    position: absolute; top: 1220px;
+                    position: absolute; left: 35px;
+        
+                }
+
+
+                .sec {
+
+                    height: 970px;
+
+                }
+             
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ @media only screen and (max-width: 1300px) {
+ 
+ 
+ 
+     body{
+ 
+         overflow-x: hidden;
+         
+            }
+            
+            
+             .navigation  {
+         
+                  position: absolute; left: 410px;
+                  position: absolute; top: 40px;
+                  font-size: 12px;
+                  
+                  
+                  
+             }
+         
+         
+             .navigation a {
+         
+              margin: 0 -1px;
+              font-weight: 600;
+         
+         
+             }
+ 
+             .sec {
+ 
+                 position: absolute; top: 700px;
+ 
+             }
+ 
+ 
+ 
+             .parallax {
+
+                width: 100%;
+        
+             }
+
+             .box {
+
+                height: 680px;
+                width: 652px;
+                position: absolute; top: 905px;
+                position: absolute; left: 294px;
+        
+             }
+        
+            .map {
+        
+               width: 600px;
+               height: 620px;
+               position: absolute; top: 936px;
+               position: absolute; left: 320px;
+        
+        
+            }
+        
+             .animated_card {
+        
+             position: absolute; top: 1010px;
+             position: absolute; left: 5px;
+             width: 280px;
+        
+        
+             }
+        
+             .animated_card2 {
+        
+                position: absolute; top: 1010px;
+                position: absolute; left: 952px;
+                width: 280px;
+           
+           
+                }
+        
+                .animated_card2 h1 {
+        
+                    position: absolute; left: 108px;
+        
+                }
+
+                .animated_card h1 {
+        
+                    position: absolute; left: -45px;
+        
+                }
+
+
+                .animated_card h2 {
+
+                    font-size: 1.4em;
+
+                }
+
+                .animated_card2 h2 {
+
+                    font-size: 1.4em;
+
+                }
+
+
+                .animated_card h3 {
+
+                    font-size: 1.18em;
+                    position: absolute; top: 208px;
+
+                }
+                .animated_card2 h3 {
+
+                    font-size: 1.15em;
+                    
+
+                }
+        
+        
+                .legend {
+        
+                    position: absolute; top: 1215px;
+                    position: absolute; left: 972px;
+                    width: 240px;
+                    height: 140px;
+        
+                }
+        
+        
+                .animated_card2 h3 {
+        
+                    position: absolute; left: 17px;
+        
+                }
+        
+                .animated_card h3 {
+        
+                    position: absolute; left: 19px;
+        
+                }
+        
+                .maplogo {
+        
+                    position: absolute; top: 1220px;
+                    position: absolute; left: 35px;
+        
+                }
+
+
+                .sec {
+
+                    height: 930px;
+
+                }
+             
+ 
+ 
+ 
+ }
+
+
+ @media only screen and (max-width: 1171px) {
+
+
+    body{
+
+        overflow-x: hidden;
+        
+           }
+           
+           
+            .navigation  {
+        
+                 position: absolute; left: 370px;
+                 position: absolute; top: 40px;
+                 font-size: 12px;
+                 
+                 
+                 
+            }
+        
+        
+            .navigation a {
+        
+             margin: 0 -1px;
+             font-weight: 600;
+        
+        
+            }
+ 
+            .sec {
+ 
+                position: absolute; top: 665px;
+                width: 100%;
+                height: 830px;
+ 
+            }
+            
+
+            .parallax {
+
+                width: 100%;
+        
+             }
+
+
+             #Logo_Image {
+
+                position: absolute; left: 17px;
+    
+            }
+    
+            .logo {
+    
+                position: absolute; left: 68px;
+    
+            }
+
+            
+        .sec h2 {
+
+            position: absolute; top: 10px;
+   
+           }
+
+
+           #text{
+
+            position: absolute; top: 230px;
+   
+           }
+            
+
+
+           
+           .box {
+
+            height: 650px;
+            width: 600px;
+            position: absolute; top: 785px;
+            position: absolute; left: 284px;
+    
+         }
+    
+        .map {
+    
+           width: 548px;
+           height: 590px;
+           position: absolute; top: 816px;
+           position: absolute; left: 310px;
+    
+    
+        }
+
+
+        .animated_card {
+        
+            position: absolute; top: 890px;
+            position: absolute; left: 5px;
+            width: 270px;
+       
+       
+            }
+       
+            .animated_card2 {
+       
+               position: absolute; top: 890px;
+               position: absolute; left: 892px;
+               width: 270px;
+          
+          
+               }
+
+
+
+               .maplogo {
+        
+                position: absolute; top: 1020px;
+                position: absolute; left: 35px;
+    
+            }
+
+
+                     
+            .animated_card2 h1 {
+           
+                position: absolute; left: 95px;
+    
+            }
+
+            .animated_card h1 {
+    
+                position: absolute; left: -55px;
+    
+            }
+
+
+            .animated_card h2 {
+
+                font-size: 1.4em;
+
+            }
+
+            .animated_card2 h2 {
+
+                font-size: 1.4em;
+
+            }
+
+
+            .animated_card h3 {
+
+                font-size: 1.18em;
+                position: absolute; top: 208px;
+                width: 243px;
+                height: 100px;
+
+            }
+            .animated_card2 h3 {
+
+                font-size: 1.15em;
+                
+
+            }
+    
+    
+            .legend {
+    
+                position: absolute; top: 1090px;
+                position: absolute; left: 912px;
+                width: 230px;
+                height: 140px;
+    
+            }
+    
+    
+            .animated_card2 h3 {
+    
+                position: absolute; left: 17px;
+    
+            }
+    
+            .animated_card h3 {
+    
+                position: absolute; left: 19px;
+    
+            }
+
+
+              
+                   }
+  
+
+
+ 
